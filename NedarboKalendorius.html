@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nedarbo dienų kalenorius</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            
+            
+        }
+        table td{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 5px 10px;
+            border-top: solid  #b6c7e5;
+            border-left: solid  #b6c7e5;
+        }
+        tr.mėnesis td{
+            color: white;
+            background: #315496;
+            border: none;            
+        }
+        table td.nedarbo_diena{
+            background-color: #f8cbac;
+            color: red;           
+
+        }
+        tr.savaitės_diena{
+            color: white;
+            background-color: #8caadd;            
+        }
+        tr.savaitės_diena td{
+            border: none;
+        }
+        td.tuščia{
+            background-color: #dae1f3;
+            color: #dae1f3;         
+
+        }
+        td.diena{
+            font-weight: bold;            
+        }
+        tr td:last-of-type{
+            border-right: 1px solid #b6c7e5;
+        }
+        table tr:last-child td{
+            border-bottom: solid #b6c7e5;
+        }
+        .stulpelis{
+            float: left;            
+            width: 33%;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1 style="color: #315396; text-align: center;" ><b>2022 nedarbo dienų kalenorius</b></h1>
+    <div class="stulpelis">
+        <table>
+            <tbody>
+                <tr class="mėnesis">
+                    <td colspan="7">sausis</td>
+                </tr>
+                <tr class="savaitės_diena">
+                    <td>P</td>
+                    <td>A</td>
+                    <td>T</td>
+                    <td>K</td>
+                    <td>Pe</td>
+                    <td>Š</td>
+                    <td>S</td>
+                </tr>
+            </tbody>
+            <tr>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="nedarbo_diena">1</td>
+                <td class="diena">2</td>
+            </tr>
+            <tr>
+                <td class="diena">3</td>
+                <td class="diena">4</td>
+                <td class="diena">5</td>
+                <td class="diena">6</td>
+                <td class="diena">7</td>
+                <td class="diena">8</td>
+                <td class="diena">9</td>
+            </tr>
+            <tr>
+                <td class="diena">10</td>
+                <td class="diena">11</td>
+                <td class="diena">12</td>
+                <td class="diena">13</td>
+                <td class="diena">14</td>
+                <td class="diena">15</td>
+                <td class="diena">16</td>
+            </tr>
+            <tr>
+                <td class="diena">17</td>
+                <td class="diena">18</td>
+                <td class="diena">19</td>
+                <td class="diena">20</td>
+                <td class="diena">21</td>
+                <td class="diena">22</td>
+                <td class="diena">23</td>
+            </tr>
+            <tr>
+                <td class="diena">24</td>
+                <td class="diena">25</td>
+                <td class="diena">26</td>
+                <td class="diena">27</td>
+                <td class="diena">28</td>
+                <td class="diena">29</td>
+                <td class="diena">30</td>
+            </tr>
+            <tr>
+                <td class="diena">31</td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+            </tr>   
+        </table>
+    </div>    
+    <div class="stulpelis">
+        <table>
+            <tbody>
+                <tr class="mėnesis">
+                    <td colspan="7">vasaris</td>
+                </tr>
+                <tr class="savaitės_diena">
+                    <td>P</td>
+                    <td>A</td>
+                    <td>T</td>
+                    <td>K</td>
+                    <td>Pe</td>
+                    <td>Š</td>
+                    <td>S</td>
+                </tr>
+            </tbody>
+            <tr>
+                <td class="tuščia"></td>
+                <td class="diena">1</td>
+                <td class="diena">2</td>
+                <td class="diena">3</td>
+                <td class="diena">4</td>
+                <td class="diena">5</td>
+                <td class="diena">6</td>
+            </tr>
+            <tr>
+                <td class="diena">7</td>
+                <td class="diena">8</td>
+                <td class="diena">9</td>
+                <td class="diena">10</td>
+                <td class="diena">11</td>
+                <td class="diena">12</td>
+                <td class="diena">13</td>
+            </tr>
+            <tr>
+                <td class="diena">14</td>
+                <td class="diena">15</td>
+                <td class="nedarbo_diena">16</td>
+                <td class="diena">17</td>
+                <td class="diena">18</td>
+                <td class="diena">19</td>
+                <td class="diena">20</td>
+            </tr>
+            <tr>
+                <td class="diena">21</td>
+                <td class="diena">22</td>
+                <td class="diena">23</td>
+                <td class="diena">24</td>
+                <td class="diena">25</td>
+                <td class="diena">26</td>
+                <td class="diena">27</td>
+            </tr>
+            <tr>
+                <td class="diena">28</td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+            </tr>
+            <tr>
+                <td class="tuščia">0</td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+            </tr>   
+        </table>
+    </div>
+    <div class="stulpelis">
+        <table>
+            <tbody>
+                <tr class="mėnesis">
+                    <td colspan="7">kovas</td>
+                </tr>
+                <tr class="savaitės_diena">
+                    <td>P</td>
+                    <td>A</td>
+                    <td>T</td>
+                    <td>K</td>
+                    <td>Pe</td>
+                    <td>Š</td>
+                    <td>S</td>
+                </tr>
+            </tbody>
+            <tr>
+                <td class="tuščia"></td>
+                <td class="diena">1</td>
+                <td class="diena">2</td>
+                <td class="diena">3</td>
+                <td class="diena">4</td>
+                <td class="diena">5</td>
+                <td class="diena">6</td>
+            </tr>
+            <tr>
+                <td class="diena">7</td>
+                <td class="diena">8</td>
+                <td class="diena">9</td>
+                <td class="diena">10</td>
+                <td class="nedarbo_diena">11</td>
+                <td class="diena">12</td>
+                <td class="diena">13</td>
+            </tr>
+            <tr>
+                <td class="diena">14</td>
+                <td class="diena">15</td>
+                <td class="diena">16</td>
+                <td class="diena">17</td>
+                <td class="diena">18</td>
+                <td class="diena">19</td>
+                <td class="diena">20</td>
+            </tr>
+            <tr>
+                <td class="diena">21</td>
+                <td class="diena">22</td>
+                <td class="diena">23</td>
+                <td class="diena">24</td>
+                <td class="diena">25</td>
+                <td class="diena">26</td>
+                <td class="diena">27</td>
+            </tr>
+            <tr>
+                <td class="diena">28</td>
+                <td class="diena">29</td>
+                <td class="diena">30</td>
+                <td class="diena">31</td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>               
+            </tr>
+            <tr>
+                <td class="tuščia">0</td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+            </tr>   
+        </table>
+    </div>   
+
+    <div class="stulpelis">
+        <table>
+            <tbody>
+                <tr class="mėnesis">
+                    <td colspan="7">balandis</td>
+                </tr>
+                <tr class="savaitės_diena">
+                    <td>P</td>
+                    <td>A</td>
+                    <td>T</td>
+                    <td>K</td>
+                    <td>Pe</td>
+                    <td>Š</td>
+                    <td>S</td>
+                </tr>
+            </tbody>
+            <tr>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="diena">1</td>
+                <td class="diena">2</td>
+                <td class="diena">3</td>
+            </tr>
+            <tr>
+                <td class="diena">4</td>
+                <td class="diena">5</td>
+                <td class="diena">6</td>
+                <td class="diena">7</td>
+                <td class="diena">8</td>
+                <td class="diena">9</td>
+                <td class="diena">10</td>
+            </tr>
+            <tr>
+                <td class="diena">11</td>
+                <td class="diena">12</td>
+                <td class="diena">13</td>
+                <td class="diena">14</td>
+                <td class="diena">15</td>
+                <td class="diena">16</td>
+                <td class="nedarbo_diena">17</td>
+            </tr>
+            <tr>
+                <td class="nedarbo_diena">18</td>
+                <td class="diena">19</td>
+                <td class="diena">20</td>
+                <td class="diena">21</td>
+                <td class="diena">22</td>
+                <td class="diena">23</td>
+                <td class="diena">24</td>
+            </tr>
+            <tr>
+                <td class="diena">25</td>
+                <td class="diena">26</td>
+                <td class="diena">27</td>
+                <td class="diena">28</td>
+                <td class="diena">29</td>
+                <td class="diena">30</td>
+                <td class="tuščia"></td>
+            </tr>
+            <tr>
+                <td class="tuščia">0</td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+            </tr>   
+        </table>
+    </div>    
+    <div class="stulpelis">
+        <table>
+            <tbody>
+                <tr class="mėnesis">
+                    <td colspan="7">gegužė</td>
+                </tr>
+                <tr class="savaitės_diena">
+                    <td>P</td>
+                    <td>A</td>
+                    <td>T</td>
+                    <td>K</td>
+                    <td>Pe</td>
+                    <td>Š</td>
+                    <td>S</td>
+                </tr>
+            </tbody>
+            <tr>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="nedarbo_diena">1</td>
+            </tr>
+            <tr>
+                <td class="diena">2</td>
+                <td class="diena">3</td>
+                <td class="diena">4</td>
+                <td class="diena">5</td>
+                <td class="diena">6</td>
+                <td class="diena">7</td>
+                <td class="diena">8</td>
+            </tr>
+            <tr>
+                <td class="diena">9</td>
+                <td class="diena">10</td>
+                <td class="diena">11</td>
+                <td class="diena">12</td>
+                <td class="diena">13</td>
+                <td class="diena">14</td>
+                <td class="diena">15</td>
+            </tr>
+            <tr>
+                <td class="diena">16</td>
+                <td class="diena">17</td>
+                <td class="diena">18</td>
+                <td class="diena">19</td>
+                <td class="diena">20</td>
+                <td class="diena">21</td>
+                <td class="diena">22</td>
+            </tr>
+            <tr>
+                <td class="diena">23</td>
+                <td class="diena">24</td>
+                <td class="diena">25</td>
+                <td class="diena">26</td>
+                <td class="diena">27</td>
+                <td class="diena">28</td>
+                <td class="diena">29</td>
+            </tr>
+            <tr>
+                <td class="diena">30</td>
+                <td class="diena">31</td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+            </tr>   
+        </table>
+    </div>
+    <div class="stulpelis">
+        <table>
+            <tbody>
+                <tr class="mėnesis">
+                    <td colspan="7">birželis</td>
+                </tr>
+                <tr class="savaitės_diena">
+                    <td>P</td>
+                    <td>A</td>
+                    <td>T</td>
+                    <td>K</td>
+                    <td>Pe</td>
+                    <td>Š</td>
+                    <td>S</td>
+                </tr>
+            </tbody>
+            <tr>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="diena">1</td>
+                <td class="diena">2</td>
+                <td class="diena">3</td>
+                <td class="diena">4</td>
+                <td class="diena">5</td>
+            </tr>
+            <tr>
+                <td class="diena">6</td>
+                <td class="diena">7</td>
+                <td class="diena">8</td>
+                <td class="diena">9</td>
+                <td class="diena">10</td>
+                <td class="diena">11</td>
+                <td class="diena">12</td>
+            </tr>
+            <tr>
+                <td class="diena">13</td>
+                <td class="diena">14</td>
+                <td class="diena">15</td>
+                <td class="diena">16</td>
+                <td class="diena">17</td>
+                <td class="diena">18</td>
+                <td class="diena">19</td>
+            </tr>
+            <tr>
+                <td class="diena">20</td>
+                <td class="diena">21</td>
+                <td class="diena">22</td>
+                <td class="diena">23</td>
+                <td class="nedarbo_diena">24</td>
+                <td class="diena">25</td>
+                <td class="diena">26</td>
+            </tr>
+            <tr>
+                <td class="diena">27</td>
+                <td class="diena">28</td>
+                <td class="diena">29</td>
+                <td class="diena">30</td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+            </tr>
+            <tr>
+                <td class="tuščia">0</td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+            </tr>   
+        </table>
+    </div>   
+    <div class="stulpelis">
+        <table>
+            <tbody>
+                <tr class="mėnesis">
+                    <td colspan="7">liepa</td>
+                </tr>
+                <tr class="savaitės_diena">
+                    <td>P</td>
+                    <td>A</td>
+                    <td>T</td>
+                    <td>K</td>
+                    <td>Pe</td>
+                    <td>Š</td>
+                    <td>S</td>
+                </tr>
+            </tbody>
+            <tr>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="diena">1</td>
+                <td class="diena">2</td>
+                <td class="diena">3</td>
+            </tr>
+            <tr>
+                <td class="diena">4</td>
+                <td class="diena">5</td>
+                <td class="nedarbo_diena">6</td>
+                <td class="diena">7</td>
+                <td class="diena">8</td>
+                <td class="diena">9</td>
+                <td class="diena">10</td>
+            </tr>
+            <tr>
+                <td class="diena">11</td>
+                <td class="diena">12</td>
+                <td class="diena">13</td>
+                <td class="diena">14</td>
+                <td class="diena">15</td>
+                <td class="diena">16</td>
+                <td class="diena">17</td>
+            </tr>
+            <tr>
+                <td class="diena">18</td>
+                <td class="diena">19</td>
+                <td class="diena">20</td>
+                <td class="diena">21</td>
+                <td class="diena">22</td>
+                <td class="diena">23</td>
+                <td class="diena">24</td>
+            </tr>
+            <tr>
+                <td class="diena">25</td>
+                <td class="diena">26</td>
+                <td class="diena">27</td>
+                <td class="diena">28</td>
+                <td class="diena">29</td>
+                <td class="diena">30</td>
+                <td class="diena">31</td>
+            </tr>
+            <tr>
+                <td class="tuščia">0</td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+            </tr>   
+        </table>
+    </div>    
+    <div class="stulpelis">
+        <table>
+            <tbody>
+                <tr class="mėnesis">
+                    <td colspan="7">rugpjūtis</td>
+                </tr>
+                <tr class="savaitės_diena">
+                    <td>P</td>
+                    <td>A</td>
+                    <td>T</td>
+                    <td>K</td>
+                    <td>Pe</td>
+                    <td>Š</td>
+                    <td>S</td>
+                </tr>
+            </tbody>
+            <tr>
+                <td class="diena">1</td>
+                <td class="diena">2</td>
+                <td class="diena">3</td>
+                <td class="diena">4</td>
+                <td class="diena">5</td>
+                <td class="diena">6</td>
+                <td class="diena">7</td>
+            </tr>
+            <tr>
+                <td class="diena">8</td>
+                <td class="diena">9</td>
+                <td class="diena">10</td>
+                <td class="diena">11</td>
+                <td class="diena">12</td>
+                <td class="diena">13</td>
+                <td class="diena">14</td>
+            </tr>
+            <tr>
+                <td class="nedarbo_diena">15</td>
+                <td class="diena">16</td>
+                <td class="diena">17</td>
+                <td class="diena">18</td>
+                <td class="diena">19</td>
+                <td class="diena">20</td>
+                <td class="diena">21</td>
+            </tr>
+            <tr>
+                <td class="diena">22</td>
+                <td class="diena">23</td>
+                <td class="diena">24</td>
+                <td class="diena">25</td>
+                <td class="diena">26</td>
+                <td class="diena">27</td>
+                <td class="diena">28</td>
+            </tr>
+            <tr>
+                <td class="diena">29</td>
+                <td class="diena">30</td>
+                <td class="diena">31</td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+            </tr>
+            <tr>
+                <td class="tuščia">0</td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+            </tr>   
+        </table>
+    </div>
+    <div class="stulpelis">
+        <table>
+            <tbody>
+                <tr class="mėnesis">
+                    <td colspan="7">rugsėjis</td>
+                </tr>
+                <tr class="savaitės_diena">
+                    <td>P</td>
+                    <td>A</td>
+                    <td>T</td>
+                    <td>K</td>
+                    <td>Pe</td>
+                    <td>Š</td>
+                    <td>S</td>
+                </tr>
+            </tbody>
+            <tr>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="diena">1</td>
+                <td class="diena">2</td>
+                <td class="diena">3</td>
+                <td class="diena">4</td>
+            </tr>
+            <tr>
+                <td class="diena">5</td>
+                <td class="diena">6</td>
+                <td class="diena">7</td>
+                <td class="diena">8</td>
+                <td class="diena">9</td>
+                <td class="diena">10</td>
+                <td class="diena">11</td>
+            </tr>
+            <tr>
+                <td class="diena">12</td>
+                <td class="diena">13</td>
+                <td class="diena">14</td>
+                <td class="diena">15</td>
+                <td class="diena">16</td>
+                <td class="diena">17</td>
+                <td class="diena">18</td>
+            </tr>
+            <tr>
+                <td class="diena">19</td>
+                <td class="diena">20</td>
+                <td class="diena">21</td>
+                <td class="diena">22</td>
+                <td class="diena">23</td>
+                <td class="diena">24</td>
+                <td class="diena">25</td>
+            </tr>
+            <tr>
+                <td class="diena">26</td>
+                <td class="diena">27</td>
+                <td class="diena">28</td>
+                <td class="diena">29</td>
+                <td class="diena">30</td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+            </tr>
+            <tr>
+                <td class="tuščia">0</td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+            </tr>   
+        </table>
+    </div>   
+    <div class="stulpelis">
+        <table>
+            <tbody>
+                <tr class="mėnesis">
+                    <td colspan="7">spalis</td>
+                </tr>
+                <tr class="savaitės_diena">
+                    <td>P</td>
+                    <td>A</td>
+                    <td>T</td>
+                    <td>K</td>
+                    <td>Pe</td>
+                    <td>Š</td>
+                    <td>S</td>
+                </tr>
+            </tbody>
+            <tr>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="diena">1</td>
+                <td class="diena">2</td>
+            </tr>
+            <tr>
+                <td class="diena">3</td>
+                <td class="diena">4</td>
+                <td class="diena">5</td>
+                <td class="diena">6</td>
+                <td class="diena">7</td>
+                <td class="diena">8</td>
+                <td class="diena">9</td>
+            </tr>
+            <tr>
+                <td class="diena">10</td>
+                <td class="diena">11</td>
+                <td class="diena">12</td>
+                <td class="diena">13</td>
+                <td class="diena">14</td>
+                <td class="diena">15</td>
+                <td class="diena">16</td>
+            </tr>
+            <tr>
+                <td class="diena">17</td>
+                <td class="diena">18</td>
+                <td class="diena">19</td>
+                <td class="diena">20</td>
+                <td class="diena">21</td>
+                <td class="diena">22</td>
+                <td class="diena">23</td>
+            </tr>
+            <tr>
+                <td class="diena">24</td>
+                <td class="diena">25</td>
+                <td class="diena">26</td>
+                <td class="diena">27</td>
+                <td class="diena">28</td>
+                <td class="diena">29</td>
+                <td class="diena">30</td>
+            </tr>
+            <tr>
+                <td class="diena">31</td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+            </tr>   
+        </table>
+    </div>    
+    <div class="stulpelis">
+        <table>
+            <tbody>
+                <tr class="mėnesis">
+                    <td colspan="7">lapkritis</td>
+                </tr>
+                <tr class="savaitės_diena">
+                    <td>P</td>
+                    <td>A</td>
+                    <td>T</td>
+                    <td>K</td>
+                    <td>Pe</td>
+                    <td>Š</td>
+                    <td>S</td>
+                </tr>
+            </tbody>
+            <tr>
+                <td class="tuščia"></td>
+                <td class="nedarbo_diena">1</td>
+                <td class="nedarbo_diena">2</td>
+                <td class="diena">3</td>
+                <td class="diena">4</td>
+                <td class="diena">5</td>
+                <td class="diena">6</td>
+            </tr>
+            <tr>
+                <td class="diena">7</td>
+                <td class="diena">8</td>
+                <td class="diena">9</td>
+                <td class="diena">10</td>
+                <td class="diena">11</td>
+                <td class="diena">12</td>
+                <td class="diena">13</td>
+            </tr>
+            <tr>
+                <td class="diena">14</td>
+                <td class="diena">15</td>
+                <td class="diena">16</td>
+                <td class="diena">17</td>
+                <td class="diena">18</td>
+                <td class="diena">19</td>
+                <td class="diena">20</td>
+            </tr>
+            <tr>
+                <td class="diena">21</td>
+                <td class="diena">22</td>
+                <td class="diena">23</td>
+                <td class="diena">24</td>
+                <td class="diena">25</td>
+                <td class="diena">26</td>
+                <td class="diena">27</td>
+            </tr>
+            <tr>
+                <td class="diena">28</td>
+                <td class="diena">29</td>
+                <td class="diena">30</td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+            </tr>
+            <tr>
+                <td class="tuščia">0</td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+            </tr>   
+        </table>
+    </div>
+    <div class="stulpelis">
+        <table>
+            <tbody>
+                <tr class="mėnesis">
+                    <td colspan="7">gruodis</td>
+                </tr>
+                <tr class="savaitės_diena">
+                    <td>P</td>
+                    <td>A</td>
+                    <td>T</td>
+                    <td>K</td>
+                    <td>Pe</td>
+                    <td>Š</td>
+                    <td>S</td>
+                </tr>
+            </tbody>
+            <tr>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="diena">1</td>
+                <td class="diena">2</td>
+                <td class="diena">3</td>
+                <td class="diena">4</td>
+            </tr>
+            <tr>
+                <td class="diena">5</td>
+                <td class="diena">6</td>
+                <td class="diena">7</td>
+                <td class="diena">8</td>
+                <td class="diena">9</td>
+                <td class="diena">10</td>
+                <td class="diena">11</td>
+            </tr>
+            <tr>
+                <td class="diena">12</td>
+                <td class="diena">13</td>
+                <td class="diena">14</td>
+                <td class="diena">15</td>
+                <td class="diena">16</td>
+                <td class="diena">17</td>
+                <td class="diena">18</td>
+            </tr>
+            <tr>
+                <td class="diena">19</td>
+                <td class="diena">20</td>
+                <td class="diena">21</td>
+                <td class="diena">22</td>
+                <td class="diena">23</td>
+                <td class="nedarbo_diena">24</td>
+                <td class="nedarbo_diena">25</td>
+            </tr>
+            <tr>
+                <td class="nedarbo_diena">26</td>
+                <td class="diena">27</td>
+                <td class="diena">28</td>
+                <td class="diena">29</td>
+                <td class="diena">30</td>
+                <td class="diena">31</td>
+                <td class="tuščia"></td>
+            </tr>
+            <tr>
+                <td class="tuščia">0</td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+                <td class="tuščia"></td>
+            </tr>   
+        </table>
+    </div>   
+    <div>
+        <h2><b>Jaučio metai</b></h2>
+    </div>
+
+</body>
+</html>
